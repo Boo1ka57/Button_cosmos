@@ -1,0 +1,77 @@
+.button {
+
+  box-shadow: none;
+  font: 1.143rem 'NeueMachina', sans-serif;
+  font-weight: 700;
+  line-height: 1.5999999999999999rem;
+  transition: all 0.3s;
+  border: none;
+  color: white;
+
+  &Small {
+    background: url("images/blackButton.png") center no-repeat;
+    background-size: 9.75rem 4.036rem;
+    width: 9.75rem;
+    height: 4.036rem;
+    padding: 1.464rem 3.357rem 1rem 3.464rem;
+
+  }
+
+  &Medium {
+    background: url("images/blackButton.png") center no-repeat;
+    background-size: 13.857rem 4.036rem;
+    width: 13.857rem;
+    height: 4.036rem;
+    padding: 1.464rem 2.214rem 1rem 2.214rem;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background: url("images/whiteButton.png") center no-repeat;
+    background-size: contain;
+    color: black;
+
+  }
+  &Small:hover {
+    background: url("images/whiteButton.png") center no-repeat;
+    background-size: 9.75rem 4.036rem;
+  }
+
+
+}
+
+//
+//.button {
+//  background: url("images/blackButton.png") center no-repeat;
+//  background-size: 9.75rem 4.036rem;
+//  box-shadow: none;
+//  font: 1.143rem 'NeueMachina', sans-serif;
+//  font-weight: 700;
+//  line-height: 1.5999999999999999rem;
+//  transition: all 0.3s;
+//  border: none;
+//  color: white;
+//
+//  &Small {
+//    width: 9.75rem;
+//    height: 4.036rem;
+//    padding: 1.464rem 3.357rem 1rem 3.464rem;
+//
+//  }
+//
+//  &Medium {
+//    width: 13.857rem;
+//    height: 4.036rem;
+//    padding: 1.464rem 2.214rem 1rem 2.214rem;
+//  }
+//
+//  &:hover {
+//    cursor: pointer;
+//    background: url("images/whiteButton.png") center no-repeat;
+//    background-size: contain;
+//    color: black;
+//
+//  }
+//
+//
+//}
